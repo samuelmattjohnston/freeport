@@ -40,6 +40,11 @@ func main() {
 
 ## Installation
 
+#### Mac OSX
+```bash
+brew install ansidev/repo/freeport
+```
+
 #### CentOS and other RPM-based systems
 
 ```bash
