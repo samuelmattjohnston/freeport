@@ -12,7 +12,8 @@ on:
       - '*.go'
       - 'go.mod'
       - 'go.sum'
-      - 'cmd/**'
+      - '.goreleaser.yml'
+      - 'cmd/main.go'
   pull_request:
     branches:
       - main
