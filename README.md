@@ -8,6 +8,8 @@
 
 Get a free open TCP port that is ready to use.
 
+This repository is forked from [phayes/freeport](https://github.com/phayes/freeport). I forked this repository because the original repository is not maintained actively.
+
 ## Command Line Example
 
 ```bash
@@ -48,15 +50,15 @@ brew install ansidev/repo/freeport
 #### CentOS and other RPM-based systems
 
 ```bash
-wget https://github.com/ansidev/freeport/releases/download/1.0.2/freeport_1.0.2_linux_386.rpm
-rpm -Uvh freeport_1.0.2_linux_386.rpm
+wget https://github.com/ansidev/freeport/releases/download/1.0.3/freeport_1.0.3_linux_386.rpm
+rpm -Uvh freeport_1.0.3_linux_386.rpm
 ```
 
 #### Ubuntu and other DEB-based systems
 
 ```bash
-wget wget https://github.com/ansidev/freeport/releases/download/1.0.2/freeport_1.0.2_linux_amd64.deb
-dpkg -i freeport_1.0.2_linux_amd64.deb
+wget wget https://github.com/ansidev/freeport/releases/download/1.0.3/freeport_1.0.3_linux_amd64.deb
+dpkg -i freeport_1.0.3_linux_amd64.deb
 ```
 
 #### Building From Source
