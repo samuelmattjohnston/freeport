@@ -19,16 +19,6 @@ func GetFreePort() (int, error) {
 	return l.Addr().(*net.TCPAddr).Port, nil
 }
 
-// GetPort is deprecated, use GetFreePort instead
-// Ask the kernel for a free open port that is ready to use
-func GetPort() int {
-	port, err := GetFreePort()
-	if err != nil {
-		panic(err)
-	}
-	return port
-}
-
 // GetFreePort asks the kernel for free open ports that are ready to use.
 func GetFreePorts(count int) ([]int, error) {
 	var ports []int
