@@ -57,6 +57,17 @@ func TestMustGetFreePort(t *testing.T) {
 
 		port := MustGetFreePort()
 
+func TestGetFreePortsFromRange(t *testing.T) {
+	start := 60000
+	end := 60010
+	ports, err := GetFreePortsFromRange(start, end)
+	if err != nil {
+		t.Error(err)
+	}
+	if len(ports) == 0 {
+		t.Error("len(ports) == 0")
+	}
+	for _, port := range ports {
 		if port == 0 {
 			t.Error("port == 0")
 		}
