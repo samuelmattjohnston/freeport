@@ -20,7 +20,7 @@ curl localhost:$port
 ```go
 package main
 
-import "github.com/phayes/freeport"
+import "github.com/samuelmattjohnston/freeport"
 
 func main() {
 	// Get one port
@@ -52,25 +52,25 @@ func main() {
 - go is required
 
 ```bash
-go install github.com/phayes/freeport/cmd/freeport@latest
+go install github.com/samuelmattjohnston/freeport/cmd/freeport@latest
 ```
 
 #### Mac OSX
 
 ```bash
-brew install phayes/repo/freeport
+brew install samuelmattjohnston/repo/freeport
 ```
 
 #### CentOS and other RPM based systems
 
 ```bash
-wget https://github.com/phayes/freeport/releases/download/1.0.2/freeport_1.0.2_linux_386.rpm
+wget https://github.com/samuelmattjohnston/freeport/releases/download/1.0.2/freeport_1.0.2_linux_386.rpm
 rpm -Uvh freeport_1.0.2_linux_386.rpm
 ```
 
 #### Ubuntu and other DEB based systems
 
 ```bash
-wget wget https://github.com/phayes/freeport/releases/download/1.0.2/freeport_1.0.2_linux_amd64.deb
+wget wget https://github.com/samuelmattjohnston/freeport/releases/download/1.0.2/freeport_1.0.2_linux_amd64.deb
 dpkg -i freeport_1.0.2_linux_amd64.deb
 ```

@@ -5,7 +5,7 @@ import (
 	"log"
 	"strconv"
 
-	"github.com/phayes/freeport"
+	"github.com/samuelmattjohnston/freeport"
 )
 
 func main() {

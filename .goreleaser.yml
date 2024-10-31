@@ -2,7 +2,7 @@ project_name: freeport
 
 release:
   github:
-    owner: phayes
+    owner: samuelmattjohnston
     name: freeport
 
 builds:
@@ -81,7 +81,7 @@ fpm:
 brew:
   # Reporitory to push the tap to.
   github:
-    owner: phayes
+    owner: samuelmattjohnston
     name: homebrew-repo
 
   # Git author used to commit to the repository.

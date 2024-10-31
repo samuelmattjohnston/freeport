@@ -1,3 +1,3 @@
-module github.com/phayes/freeport
+module github.com/samuelmattjohnston/freeport
 
 go 1.11
